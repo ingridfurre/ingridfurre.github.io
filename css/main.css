@@ -1,0 +1,537 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.row {
+    max-width: 100%;
+}
+
+.column {
+    padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10px !important;
+  margin: 0px !important;
+  margin-top: 70px !important;
+  color: #666666 !important;
+  /*letter-spacing: 1px;*/
+}
+
+body p {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10px !important;
+  color: #666666 !important;
+}
+
+#nav {
+  float: left;
+  width: 230px;
+  margin-bottom: 50px;
+  margin-left: 30px !important;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px !important;
+  margin-left: 0px;
+}
+
+#nav_ul {
+  margin-top: 30px !important;
+}
+
+.new_ul {
+  margin-top: 15px;
+}
+
+
+.nav_break {
+  margin-bottom: 50px;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.front ul {
+  overflow: auto;
+  margin-bottom: 95px;
+}
+
+.w, .other {
+  /*display: none;*/
+}
+
+.content.largec .w {
+  margin-left: 500px;
+}
+
+.content .other {
+  margin-left: 500px;
+}
+
+.content.largec {
+  top: 0px;
+  padding-right: 40px;
+}
+
+.content.small-12 {
+  float: left;
+}
+
+.content .w {
+  max-width: 700px;
+}
+
+.content .w0 {
+  width: auto;
+  max-width: none;
+}
+
+.content .w.w12 {
+  max-width: 1500px;
+}
+
+.content .w.w13 {
+  max-width: 900px;
+}
+
+.content .w.w14 {
+  max-width: 800px;
+}
+
+.content .w.w15 {
+  max-width: 900px;
+}
+
+.content .w.w17 {
+  max-width: 1000px;
+}
+
+.content .w.w18 {
+  max-width: 500px;
+}
+
+.content .w.w19 {
+  max-width: 1000px;
+}
+
+.content .w.w25 {
+  max-width: 1000px;
+}
+
+.content .w.w26 {
+  max-width: 1600px;
+}
+
+.content .w.w28 {
+  max-width: 1100px;
+}
+
+.content .w.w29 {
+  max-width: 1600px;
+}
+
+.content .w.w30 {
+  max-width: 800px;
+}
+
+
+#block .content.small-12 .w .item {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#block .content.small-12 .w img {
+  /*width: 100% !important;
+  max-width: 100% !important;*/
+}
+
+#block .content.small-12 p {
+  margin-left: 20px;
+}
+
+
+.content .w.width1000 {
+  max-width: 1000px;
+}
+
+.content img {
+  clear: right;
+}
+
+.content .item {
+  max-width: 100%;
+  margin-bottom: 20%;
+}
+
+.content .w9 .item {
+  margin-bottom: 30%;
+}
+
+.content .w12 .item {
+  margin-bottom: 14%;
+}
+
+.content .w14 .item {
+  margin-bottom: 30%;
+}
+
+.content .w26 .item {
+  max-width: 100%;
+  margin-bottom: 35%;
+}
+
+.content .w p {
+  margin-top: 20px;
+}
+
+.content .w p.text {
+
+}
+
+.content .w p.text140 {
+
+}
+
+.content .w p.text110 {
+
+}
+
+.w0 div {
+  margin-bottom: 100px;
+}
+
+.w0 li {
+  float: left;
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-right: -webkit-calc(15px + 5%); /** Safari 6, Chrome 19-25 **/
+  margin-right: -moz-calc(15px + 5%); /** FF 4-15  **/
+  margin-right: -o-calc(15px + 5%);
+  margin-right: calc(15px + 5%);
+  width: 20%;
+  max-width: 165px;
+  max-height: 140px;
+  min-width: 100px;
+}
+
+.w0 li a img {
+  max-width: 100%;
+  max-height: 140px;
+  height: auto;
+}
+
+/*.w0 li:nth-child(3n) {
+  margin-right: 0px !important;
+}*/
+
+.w0 li:nth-child(3n+1) {
+  clear: left;
+}
+
+.w0 li:nth-child(3n+1) img {
+  clear: left;
+}
+
+
+/*.w0 img {
+  height: auto;
+  width: auto;
+  max-height: 140px;
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+
+.w0 li a {
+  width: 100%;
+  height: 100%;
+}
+
+.w0 li {
+  width: 20%;
+  max-width: 300px;
+  min-width: 100px;
+  float: left;
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+.w0 li:nth-child(3n+1) {
+    clear: left;
+}*/
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
