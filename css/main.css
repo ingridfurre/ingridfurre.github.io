@@ -197,6 +197,10 @@ a:hover {
   max-width: none;
 }
 
+.content .w.w2 {
+  max-width: 1500px;
+}
+
 .content .w.w12 {
   max-width: 1500px;
 }

@@ -6,10 +6,10 @@ $(document).ready(function() {
 	$("#oes").hide();
 });
 
-$('.content.largec .item img').css('max-height', $(window).height() - 150);
+/*$('.content.largec .item img').css('max-height', $(window).height() - 150);
 $( window ).resize(function() {
 	$('.content.largec .item img').css('max-height', $(window).height() - 150);
-});
+});*/
 
 function imgsWidth() {
 	var width1 = $($(".show-for-medium-up .w0 li:nth-child(3n+1) img")[0]).width();
